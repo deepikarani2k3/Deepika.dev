@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d962db6a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Deepika</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----about section----- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I’m a tech enthusiast currently focused on Full Stack Web Development. Skilled in Java, HTML, CSS, JavaScript, Node.js, and MongoDB, I’m passionate about creating responsive web applications and continuously expanding my skills to build a career in the IT industry.</p>
+                          <a href="Resume.pdf" target="_blank" class="btn">
+  <i class="fa-solid fa-file-arrow-down"></i> View CV
+</a>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li>Programming Languages: C, Java, JavaScript</li>
+                            <li>Web Technologies: HTML, CSS, React JS, Next JS, Tailwind, Node JS</li>
+                            <li>Database: DBMS, MongoDB</li>
+                            <li>APIs: RESTful APIs, OpenWeatherMap API</li>
+                            <li>Miscellaneous: OOPs, OS, Computer Networks, System Design, SQL, Git, VS Code</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Fresher</span><br></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><strong>University of Agricultural Sciences, Bangalore</strong> — 2021–2025 | CGPA: 8.1/10</li>
+                            <li><strong>Sushant Public School</strong> — 2021 | Percentage: 88%</li>
+                            <li><strong>Holy Cross Public School</strong> — 2019 | Percentage: 92%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----services section----- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafted responsive and visually appealing websites using HTML, CSS, and JavaScript. Focused on user-friendly layouts with modern design aesthetics....</p>
+                    <a href="https://github.com/deepikarani2k3">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                     <h2>Coding Profiles</h2>
+                   <p>Solved data structures and algorithm problems using Java on platforms like LeetCode. Focused on logic-building and core programming concepts</p>
+                 <li><a href="https://leetcode.com/u/deepika2k3/" target="_blank">LeetCode</a></li>
+                <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+                 
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                     <h2>Full Stack Web </h2>
+                     <p>Currently working on real-time web apps using Node.js, Express, and MongoDB with user login and dashboard functionality.</p>
+                    <a href="https://github.com/yourusername/kisaniq" target="_blank">Learn more</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----portfolio section----- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="spotify.jpg">
+                    <h3>Spotify Clone</h3>
+                    <p>A responsive web application that replicates Spotify’s UI and functionality using HTML, CSS, and JavaScript.</p>
+                    <a href="https://deepikarani2k3.github.io/SpotifyClone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                <div class="work">
+                    <img src="ag.webp">
+                    <h3>Kisan IQ</h3>
+                    <p>A full-stack web app for farmers with crop recommendations, weather forecasts, and disease alerts using Node.js, Express, MongoDB.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                <div class="work">
+                    <img src="calc.jpg">
+                    <h3>Easy Hisab</h3>
+                    <p>A scientific calculator web app using HTML, CSS, JavaScript for responsive advanced calculations.</p>
+                    <a href="https://deepikarani2k3.github.io/EasyHisab/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----contact section----- -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <div class="contact-info">
+                <p><i class="fa-solid fa-envelope"></i> deepikasingh3729@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-XXXXXXXXXX</p>
+                <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/deepika-rani-864224308/" target="_blank">LinkedIn Profile</a></p>
+                <p><i class="fa-brands fa-github"></i> <a href="https://github.com/deepikarani2k3" target="_blank">GitHub Portfolio</a></p>
+            </div>
+
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+
+    <!-- -----JS tabs script----- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
